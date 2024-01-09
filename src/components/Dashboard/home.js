@@ -64,8 +64,8 @@ const Home = () => {
                 <p><textarea placeholder="Description" /></p>
                 <p><input type="text" placeholder="Url" /></p>
                 <p><input type="file" placeholder="Image" /></p>
-                <button type="submit">Submit</button>
-                <button onClick={() => auth.signOut()}>Sign out</button>
+                <button type="submit">Soumettre</button>
+                <button onClick={() => auth.signOut()}>Se deconnecter</button>
             </form>
         </div>
     )

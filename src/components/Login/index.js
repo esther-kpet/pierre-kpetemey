@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <div className="dashboard">
             <button onClick={signInWithGoogle}>
-                Sign in with google
+                Se connecter avec Google
             </button>
         </div>
     )

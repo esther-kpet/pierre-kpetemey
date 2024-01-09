@@ -39,14 +39,12 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['M', 'e', ' ', 'c', 'o', 'n', 't', 'a', 'c', 't', 'e', 'r']}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            Je suis intéressé par des opportunités en freelance, particulièrement sur des projets ambitieux ou de grande envergure. Cependant, si vous avez d'autres demandes ou questions, n'hésitez pas à me contacter en utilisant le formulaire ci-dessous.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -72,25 +70,25 @@ const Contact = () => {
                 </li>
                 <li>
                   <textarea
-                    placeholder="Message"
+                    placeholder="Le message"
                     name="message"
                     required
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value="ENVOYER" />
                 </li>
               </ul>
             </form>
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Pierre KPETEMEY,
           <br />
-          Serbia,
+          TOGO,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Kegue <br />
+          Lome <br />
           <br />
           <span>freelancerslobodan@gmail.com</span>
         </div>
@@ -98,7 +96,7 @@ const Contact = () => {
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Mr. KPETEMEY Pierre habite ici, sentez-vous libre de passer pour une tasse de café. :)</Popup>
             </Marker>
           </MapContainer>
         </div>
