@@ -18,7 +18,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-
+    11
     emailjs
       .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
       .then(
@@ -90,7 +90,7 @@ const Contact = () => {
           Kegue <br />
           Lome <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>ivalbapeter@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
