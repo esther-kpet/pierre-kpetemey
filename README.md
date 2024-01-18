@@ -23,7 +23,7 @@ Pour toute demande de consultation ou pour en savoir plus sur les services propo
 - **Site Web :** [https://pierre-kpetemey.vercel.app/](https://pierre-kpetemey.vercel.app/)
 - **Email :** 
 ivalbapeter@gmail.com
-- **Téléphone :** +228 92 44 68 96
+- **Téléphone :** [appeler](tel:+228 92 44 68 96)
 
 ## Collaborations
 
