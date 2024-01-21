@@ -18,7 +18,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    11
+
+
     emailjs
       .sendForm('gmail', 'template_w3a5ac6', form.current, '35quB4Fpo_6ML-GPD')
       .then(
