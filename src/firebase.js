@@ -1,6 +1,7 @@
 
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { getAnalytics } from "firebase/app";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/analytics";
 import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore/lite';
 
